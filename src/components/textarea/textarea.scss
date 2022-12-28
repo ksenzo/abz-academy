@@ -1,0 +1,24 @@
+.text_area_wrap {
+  max-width: 380px;
+  display: flex;
+  margin: 37px auto 50px auto;
+}
+
+.upload_field {
+  border: 1px solid #D0CFCF;
+  border-radius: 0 4px 4px 0;
+  width: 100%;
+  display: flex;
+  border-left: none;
+  cursor: pointer;
+}
+
+
+.upload_btn{
+  cursor: pointer;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 14px 15px;
+  border: 1px solid black;
+  border-radius: 4px 0 0 4px;
+}

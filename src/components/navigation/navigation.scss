@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  align-items: center;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header_wrap {
+  display: flex;
+  & > div:first-of-type {
+    margin-right: 10px;
+  }
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.desktop {
+  padding: 15px 32px;
+}
+
+.mobile {
+  padding: 15px 16px;
+}

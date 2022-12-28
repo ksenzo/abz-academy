@@ -1,0 +1,59 @@
+.input {
+  padding: 14px 16px;
+  border: 1px solid #D0CFCF;
+  border-radius: 4px;
+  max-width: 348px;
+  width: 100%;
+  background: #f8f8f8;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.87);
+  outline: none;
+}
+
+.input_wrap {
+  max-width: 380px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.default_label {
+  position: absolute;
+  left: 12px;
+  font-size: 16px;
+  top: 31px;
+  padding: 5px;
+  transition: all 0.1s ease 0s;
+  color: #7E7E7E;
+}
+
+.number_hid {
+  display: none;
+}
+
+.number_show {
+  display: inline;
+  position: absolute;
+  left: 14px;
+  bottom: 0px;
+  font-size: 12px;
+  color: #7e7e7e;
+}
+
+.label:focus,
+.label:focus-within {
+  .default_label {
+    font-size: 12px;
+    top: 5px;
+    left: 9px;
+    background: #f8f8f8;
+  }
+}
+
+.label {
+  display: flex;
+  padding: 18px 0;
+}
+

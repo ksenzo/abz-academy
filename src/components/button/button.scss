@@ -1,0 +1,22 @@
+.default_button {
+    border-radius: 80px;
+    padding: 9px 29px;
+    border: none;
+    cursor: pointer;
+}
+
+.yellow {
+    &:hover {
+    background: #FFE302;
+}
+    background: #F4E041;
+}
+
+.gray {
+    background: #B4B4B4;
+    pointer-events: none;
+}
+
+.hid {
+    display: none;
+}

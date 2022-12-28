@@ -1,0 +1,32 @@
+.wrap {
+    text-align: center;
+    background: url("../../assets/back_main_screen.png") no-repeat center / cover;
+}
+
+.title {
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 380px;
+    padding: 0 20px;
+    margin: 0 auto 21px auto;
+}
+
+.subtitle {
+    padding: 0 20px;
+    max-width: 380px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto 32px auto;
+}
+
+.mainscreen_mobile {
+    padding: 40px 0 70px 0;
+}
+
+.mainscreen_desktop {
+    padding: 164px 0;
+}

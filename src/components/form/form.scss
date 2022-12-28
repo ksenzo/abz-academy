@@ -1,0 +1,28 @@
+.form_wrapper {
+  background: #F8F8F8;
+  padding-bottom: 100px;
+}
+
+.form_container {
+  max-width: 1190px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+
+}
+
+.filesUp {
+  margin-top: 19px;
+}
+
+.input_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    & > div:nth-of-type(1),
+    & > div:nth-of-type(2) {
+      margin-bottom: 14px;
+    }
+  margin-bottom: 43px;
+}
